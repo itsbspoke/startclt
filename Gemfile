@@ -5,8 +5,11 @@ source 'http://rubygems.org'
 gem "rake"
 gem "middleman", "~>3.3.3"
 gem 'middleman-gh-pages'
+gem 'middleman-google-analytics'
 gem "thin"
 gem "foreman"
+
+gem 'middleman-search_engine_sitemap'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
