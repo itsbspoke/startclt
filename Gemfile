@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "rake"
 gem "middleman", "~>3.3.3"
+gem 'middleman-gh-pages'
 gem "thin"
 gem "foreman"
 
