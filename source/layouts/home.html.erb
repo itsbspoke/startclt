@@ -30,10 +30,6 @@
 	
 </head>
 <body>
-
-<!-- PRELOADER -->
-<img id="preloader" src="images/preloader.gif" alt="" />
-<!-- //PRELOADER -->
 	
 	<!-- PAGE -->
 	<div id="page">
@@ -46,178 +42,37 @@
 				
 				<!-- HEADER -->
 				<header>
-						
-					<!-- MENU -->
-					<div class="menu_block clearfix">
-						
-						<!-- LOGO -->
-						<div class="logo">
-							<a href="index.html" alt="Logo"><%= image_tag "logo.png", class: "main_logo" %></a>
-						</div><!-- LOGO -->
-						
-						<!-- RESPONSIVE BUTTON MENU -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="glyphicon glyphicon-align-justify"></span>
-							</button>
-						</div><!-- //RESPONSIVE BUTTON MENU -->
-						
-						<div class="navbar-collapse collapse">
-							<ul class="nav navbar-nav center">
-								<li class="first active"><a href="index.html" title="">Home</a></li>
-								<li class="sub-menu"><a href="javascript:void(0);" title="">Features</a>
-									<!-- Mega Menu -->
-									<ul class="mega_menu left">
-										<h4>Two columns and paragraph</h4>
-										<li class="col">
-											<h5>Page Layouts</h5>
-											<ol>
-												<li><a href="typography.html"><span>-</span>Typography</a></li>
-												<li><a href="shortcodes.html"><span>-</span>Shortcodes</a></li>
-												<li><a href="full-width.html"><span>-</span>Full Width</a></li>
-											</ol>
-										</li>
-										<li class="col">
-											<h5>Other Pages</h5>
-											<ol>
-												<li><a href="404.html"><span>-</span>404 Page</a></li>
-												<li><a href="shop.html"><span>-</span>Shop</a></li>
-												<li><a href="product-page.html"><span>-</span>Product Page</a></li>
-											</ol>
-										</li>
-										<li class="col">
-											<h5>Paragraph</h5>
-											<p>This <span class="color_text">Mega Menu</span> can handle everything. Lists, paragraphs, forms...</p>
-										</li>
-										<div class="clear"></div>
-									</ul><!-- //Mega Menu -->
-								</li>
-								<li class="sub-menu menu_middle"><a href="javascript:void(0);" title="">Pages</a>
-									<ul>
-										<li><a href="about.html"><span>-</span>About</a></li>
-										<li><a href="shop.html"><span>-</span>Shop</a></li>
-										<li><a href="product-page.html"><span>-</span>Product Page</a></li>
-										<li><a href="full-width.html"><span>-</span>Full Width</a></li>
-										<li><a href="404.html"><span>-</span>404 Page</a></li>
-									</ul>
-								</li>
-								<li class="sub-menu"><a href="javascript:void(0);" title="">Portfolio</a>
-									<ul>
-										<li><a href="portfolio1.html"><span>-</span>1 Column</a></li>
-										<li><a href="portfolio2.html"><span>-</span>2 Column</a></li>
-										<li><a href="portfolio3.html"><span>-</span>3 Column</a></li>
-										<li><a href="portfolio4.html"><span>-</span>4 Column</a></li>
-										<li><a href="portfolio-post.html"><span>-</span>Portfolio Post</a></li>
-									</ul>
-								</li>
-								<li class="sub-menu"><a href="javascript:void(0);" title="">Blog</a>
-									<ul>
-										<li><a href="blog.html"><span>-</span>Blog with sidebar</a></li>
-										<li><a href="blog-post.html"><span>-</span>Blog Post</a></li>
-									</ul>
-								</li>
-								<li class="last"><a href="contacts.html" title="">Contacts</a></li>
-							</ul>
-						</div>
-					</div><!-- //MENU -->
+					<%= partial "nav" %>
 				</header><!-- //HEADER -->
 				
 				<!-- JUMBOTRON -->
 				<section class="jumbotron">
 					<div class="center" data-animated="fadeInUp">
 						<div class="jumbotron_text">
-							<h2 class="color_text">Say Something Wonderful Here</h2>
-							Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie
+							<h2 class="color_text">Start Something!</h2>
+							<p>The home of Charlotte's grass-roots creative community.</p>
 						</div>
 					</div>
 				</section><!-- //JUMBOTRON -->
 				
-				<!-- SLIDER -->
-				<div class="slider_block full_width margbot65">
-					<div class="flexslider top_slider">
-						<ul class="slides">
-							<li class="slide1">
-								<img src="images/slider/slide1_bg.jpg" />
-								<div class="flex_caption1 captionDelay4 FromLeft">Nullam turpis</div>
-								<div class="flex_caption2 captionDelay4 FromRight">Nullam turpis</div>
-								<div class="FromBottom flex_caption3"></div>
-							</li>
-							<li class="slide2">
-								<img src="images/slider/slide2_bg.jpg" />
-								<div class="flex_caption1 FromLeft">
-									<h2 class="color_text">responsive</h2><br>
-									<p>Cras pulvinar <span class="color_text">tortor vel augue</span> consequat</p><br>
-									<p>Sed vehicula, dolor sit amet</p><br>
-								</div>
-								<div class="FromRight flex_caption2"></div>
-							</li>
-						</ul>
-					</div>
-				</div><!-- //SLIDER -->
+				<!-- HERO -->
+				<div id="hero" class="full_width margbot65">
+								<img src="images/cropped-sclt.png" />
+				</div><!-- //HERO -->
 
 				
-				<!-- RECENT PROJECTS -->
-				<section class="projects_block padbot50" data-animated="fadeInUp">
-					<h2 class="title center"><span>Recent Projects</span></h2>
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 margbot30">
-							<div class="project_item">
-								<div class="hover_img"><img src="images/projects/1.jpg" alt="" /></div>
-								<div class="proj_descr center">
-									<div class="proj_descr_content">
-										<a href="portfolio-post.html" alt="">Duis molestie vitae</a>
-										<span>Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 margbot30">
-							<div class="project_item">
-								<div class="hover_img"><img src="images/projects/2.jpg" alt="" /></div>
-								<div class="proj_descr center">
-									<div class="proj_descr_content">
-										<a href="portfolio-post.html" alt="">Integer magna enim</a>
-										<span>Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 margbot30">
-							<div class="project_item">
-								<div class="hover_img"><img src="images/projects/3.jpg" alt="" /></div>
-								<div class="proj_descr center">
-									<div class="proj_descr_content">
-										<a href="portfolio-post.html" alt="">Pellentesque quis ante</a>
-										<span>Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 margbot30">
-							<div class="project_item">
-								<div class="hover_img"><img src="images/projects/4.jpg" alt="" /></div>
-								<div class="proj_descr center">
-									<div class="proj_descr_content">
-										<a href="portfolio-post.html" alt="">Curabitur blandit velit vel</a>
-										<span>Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section><!-- //PROJECTS -->
 				
 				
 				<!-- CONTENT SLIDER -->
-				<div class="content_slider_block margbot65">
-					<div class="flexslider content_slider" data-animated="fadeInUp">
+				<div class="padbot50">
+					<h2 class="title center"><span>Our Events</span></h2>
 						<ul class="slides">
 							<li class="row">
 								<div class="col-lg-6 col-md-6 col-sm-5">
 									<img src="images/slider/content_slide_img1.png" />
 								</div>
 								<div class="col-lg-6 col-md-6">
-									<h2>Retina Ready</h2>
+									<h2>First Pitch</h2>
 									<p>Cras sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum augue ante a eros. Curabitur a quam nec purus scelerisque ultricies. Duis velit nunc, malesuada at fermentum a, vehicula eu diam. Vestibulum commodo libero leo, vitae tincidunt nisi adipiscing at. In sapien urna, eleifend ac massa a, consequat semper nunc. Etiam sed sodales lacus.</p>
 									<p>Proin pellentesque diam vel nunc rhoncus pharetra. Praesent semper neque a lacinia ultricies. Cras sit amet ligula purus. Cras rutrum dui sed felis mollis, feugiat eleifend massa dignissim. In tempor auctor aliquam. Aliquam sit amet pretium sem, id venenatis lacus.</p>
 									<a class="btn btn-active" href="" alt="">see more</a>
@@ -228,14 +83,14 @@
 									<iframe src="http://player.vimeo.com/video/29298709?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen ></iframe>
 								</div>
 								<div class="col-lg-6 col-md-6">
-									<h2>responsive</h2>
+									<h2>PitchBreakfast</h2>
 									<p>Praesent sit amet mauris ut ipsum facilisis tincidunt ac non lectus. Ut tincidunt, dui vitae molestie vehicula, nisi diam convallis neque, vel bibendum augue ante a eros. Curabitur a quam nec purus scelerisque ultricies. Duis velit nunc, malesuada at fermentum a, vehicula eu diam. Vestibulum commodo libero leo, vitae tincidunt nisi adipiscing at. In sapien urna, eleifend ac massa a, consequat semper nunc. Etiam sed sodales lacus.</p>
 									<p>Aliquam pellentesque diam vel nunc rhoncus pharetra. Praesent semper neque a lacinia ultricies. Cras sit amet ligula purus. Cras rutrum dui sed felis mollis, feugiat eleifend massa dignissim. In tempor auctor aliquam. Aliquam sit amet pretium sem, id venenatis lacus.</p>
 									<a class="btn btn-active" href="" alt="">see more</a>
 								</div>
 							</li>
 						</ul>
-					</div>
+
 				</div><!-- CONTENT SLIDER -->
 				
 				

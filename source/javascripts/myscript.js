@@ -3,20 +3,6 @@ window.jQuery = window.$ = jQuery;
 
 /* Custom Scripts */
 
-
-/*-----------------------------------------------------------------------------------*/
-/*	PRELOADER
-/*-----------------------------------------------------------------------------------*/
-jQuery(window).load(function () {
-	//Preloader
-	setTimeout("jQuery('#preloader').animate({'opacity' : '0'},300,function(){jQuery('#preloader').hide()})",800);
-	setTimeout("jQuery('.page_block').animate({'opacity' : '1'},500)",800);
-
-});
-
-
-
-
 /*-----------------------------------------------------------------------------------*/
 /*	CONTACT FORM
 /*-----------------------------------------------------------------------------------*/
@@ -127,76 +113,6 @@ function errorpageHeight() {
 	}
 	
 }
-
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	FLEXSLIDER
-/*-----------------------------------------------------------------------------------*/
-jQuery(window).load(function(){
-	//Top Slider
-	$('.flexslider.top_slider').flexslider({
-		animation: "fade",
-		controlNav: true,
-		directionNav: false
-	});
-	
-	
-	//Content Slider
-	$('.flexslider.content_slider').flexslider({
-		animation: "fade",
-		controlNav: true,
-		directionNav: false
-	});
-	
-
-	//Vision Slider
-	$('.flexslider.vision_slider').flexslider({
-		animation: "fade",
-		controlNav: true,
-		directionNav: false,
-		animationLoop: false,
-		slideshow: false,
-	});
-	
-	//Products Slide
-	$('#carousel2').flexslider({
-		animation: "slide",
-		controlNav: false,
-		directionNav: false,
-		animationLoop: false,
-		slideshow: false,
-		itemWidth: 81,
-		itemMargin: 10,
-		asNavFor: '#slider2'
-	});
-	$('#slider2').flexslider({
-		animation: "fade",
-		controlNav: false,
-		directionNav: false,
-		animationLoop: false,
-		slideshow: false,
-		sync: "#carousel2"
-	});
-	
-	//Post Slider
-	$('.flexslider.post_slider').flexslider({
-		animation: "fade",
-		controlNav: true,
-		directionNav: false
-	});
-	
-	//Blog Slider
-	$('.flexslider.blog_slider').flexslider({
-		animation: "slide",
-		animationLoop: false,
-		slideshow: false,
-		controlNav: true,
-		directionNav: false
-	});
-
-	
-});
 
 
 /*-----------------------------------------------------------------------------------*/
