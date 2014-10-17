@@ -309,6 +309,11 @@ section {padding-bottom: 70px;
 /*-----------------------------------------------------------------------------------*/
 /*	MENU
 /*-----------------------------------------------------------------------------------*/
+img.main_logo {
+	height: 100px;
+	padding: 10px 0px;
+}
+
 .menu_block {
 	position:relative;
 	z-index:100;
@@ -336,7 +341,7 @@ section {padding-bottom: 70px;
 .navbar-nav li a {
 	display:block;
 	margin:0;
-	padding:32px 48px 33px;
+	padding: 48px;
 	text-transform:uppercase;
 	font-weight:400;
 	line-height:20px;
