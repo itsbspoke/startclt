@@ -1141,6 +1141,34 @@ hr {border-color:#ececec;}
 	margin:7px 0 10px 21px;
 }
 
+/* --- **/
+
+.bs-callout {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+}
+
+.bs-callout dt:before {
+  content: "";
+  display: block;
+}
+.bs-callout dt, .bs-callout dd {
+  display: inline;
+}
+
+.pullout {
+  padding: 66px 180px 70px;	
+}
+
+.pullout div.container {
+	border: 1px solid #eee;
+	font-size: 16px;
+}
+
+
 /* __________ Price Table __________ */
 .module_price_table {
 	overflow:hidden;
