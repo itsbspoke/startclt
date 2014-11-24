@@ -280,7 +280,7 @@ section {padding-bottom: 70px;
 	border-radius:50%;
 	background-color:#cecece;
 	background-repeat: no-repeat;
-	background-image: url(../images/social.png);
+	background-image: url(../images/social2.png);
 	transition: background-color 0.3s ease-in-out;
 	-webkit-transition: background-color 0.3s ease-in-out;
 }
@@ -292,6 +292,7 @@ section {padding-bottom: 70px;
 .social li.icon4 a {background-position: -105px 0;}
 .social li.icon5 a {background-position: -140px 0;}
 .social li.icon6 a {background-position: -175px 0;}
+.social li.icon7 a {background-position: -210px 0;}
 
 
 .team_block .social {padding-top:10px;}
@@ -448,6 +449,11 @@ ul.mega_menu li ol li a {border:0 !important; padding:4px 5px 4px 0 !important;}
 	font-weight:400;
 	line-height:33px;
 	font-size:26px;
+}
+
+div.slat{
+	height:320px;
+	overflow: hidden;
 }
 
 
@@ -986,7 +992,6 @@ footer input[type="text"].last {margin-right:0;
 /* __________ Our Team __________ */
 .crewman_foto {
 	margin-bottom:20px;
-	background:#d8d08b;
 }
 .crewman_foto img {
 	opacity: 0.88;

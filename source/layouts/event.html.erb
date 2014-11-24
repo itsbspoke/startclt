@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<%= partial "head" %>
+<body>
+	
+	<!-- PAGE -->
+	<div id="page">
+		
+		<!-- CONTAINER -->
+		<div class="container page_block">
+			
+			<!-- WRAPPER -->
+			<div class="wrapper">
+				
+				<!-- HEADER -->
+				<header>
+					<%= partial "nav" %>
+				</header><!-- //HEADER -->
+				
+			    <%= yield %>
+
+				<%= partial "footer" %>
+				
+				<!-- COPYRIGHT -->
+				<div class="full_width copyright clearfix">
+					<a class="copyright_logo" href="javascript:void(0);">START CHARLOTTE</a> <span> &copy; Copyright 2014</span>
+				</div><!-- //COPYRIGHT -->
+			</div><!-- WRAPPER -->
+		</div><!-- //CONTAINER -->
+	</div><!-- //PAGE -->
+	    <%= google_analytics_universal_tag %>
+</body>
+</html>
