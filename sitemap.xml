@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.startcharlotte.com/contact.html</loc>
-    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.startcharlotte.com/events/sierra-maya-360-introduction.html</loc>
-    <lastmod>2014-11-25T15:56:06-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.startcharlotte.com/firstpitch/apply.html</loc>
-    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.startcharlotte.com/firstpitch/</loc>
-    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
+    <lastmod>2014-11-25T18:17:47-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/</loc>
-    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
+    <lastmod>2014-11-25T18:17:47-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.startcharlotte.com/firstpitch/</loc>
+    <lastmod>2014-11-25T18:17:47-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.startcharlotte.com/firstpitch/apply.html</loc>
+    <lastmod>2014-11-25T18:17:47-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/newsletter.html</loc>
-    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
+    <lastmod>2014-11-25T18:17:47-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.startcharlotte.com/events/sierra-maya-360-introduction.html</loc>
+    <lastmod>2014-11-25T18:37:17-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
