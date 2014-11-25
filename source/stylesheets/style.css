@@ -230,6 +230,8 @@ section {padding-bottom: 70px;
 .btn-sm {padding: 2px 13px 3px; font-size:13px;}
 .btn-xs {padding: 2px 10px; font-size:11px;}
 
+.rsvp{ text-align: center; }
+
 .ie .btn, .ie .btn-default {filter:none !important;}
 
 
@@ -1164,7 +1166,8 @@ border-radius: 3px;
 }
 
 .pullout div.container {
-	border: 1px solid #eee;
+	border: 5px solid #0078BF;
+	padding: 15px;
 	font-size: 16px;
 }
 
@@ -2205,6 +2208,9 @@ footer .tweet_module .tweet_time a {color:#3a8bb2;}
 
 @media (max-width: 767px) {
 	#style-switcher {display:none !important;}
+	.pullout {
+	  padding: 0px;	
+	}
 	
 	.logo {text-align:left; float:left;}
 	.logo a {position:static; transform:none; -o-transform:none; -ms-transform:none; -webkit-transform:none; line-height:70px;}
@@ -2300,6 +2306,10 @@ footer .tweet_module .tweet_time a {color:#3a8bb2;}
 /* __________ INDEX PAGE __________ */
 	.jumbotron_text h2 {font-size:18px; line-height:24px;}
 	.container .jumbotron {line-height:15px; font-size:12px;}
+	
+	.pullout {
+	  padding: 0px;	
+	}	
 	
 	
 	.projects_block .row {width:250px;}
