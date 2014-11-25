@@ -231,6 +231,8 @@ section {padding-bottom: 70px;
 .btn-sm {padding: 2px 13px 3px; font-size:13px;}
 .btn-xs {padding: 2px 10px; font-size:11px;}
 
+.rsvp{ text-align: center; }
+
 .ie .btn, .ie .btn-default {filter:none !important;}
 
 
@@ -281,7 +283,7 @@ section {padding-bottom: 70px;
 	border-radius:50%;
 	background-color:#cecece;
 	background-repeat: no-repeat;
-	background-image: url(../images/social.png);
+	background-image: url(../images/social2.png);
 	transition: background-color 0.3s ease-in-out;
 	-webkit-transition: background-color 0.3s ease-in-out;
 }
@@ -293,6 +295,7 @@ section {padding-bottom: 70px;
 .social li.icon4 a {background-position: -105px 0;}
 .social li.icon5 a {background-position: -140px 0;}
 .social li.icon6 a {background-position: -175px 0;}
+.social li.icon7 a {background-position: -210px 0;}
 
 
 .team_block .social {padding-top:10px;}
@@ -449,6 +452,11 @@ ul.mega_menu li ol li a {border:0 !important; padding:4px 5px 4px 0 !important;}
 	font-weight:400;
 	line-height:33px;
 	font-size:26px;
+}
+
+div.slat{
+	height:320px;
+	overflow: hidden;
 }
 
 
@@ -987,7 +995,6 @@ footer input[type="text"].last {margin-right:0;
 /* __________ Our Team __________ */
 .crewman_foto {
 	margin-bottom:20px;
-	background:#d8d08b;
 }
 .crewman_foto img {
 	opacity: 0.88;
@@ -1136,6 +1143,35 @@ hr {border-color:#ececec;}
 .pull-right.frame340 iframe {
 	margin:7px 0 10px 21px;
 }
+
+/* --- **/
+
+.bs-callout {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+}
+
+.bs-callout dt:before {
+  content: "";
+  display: block;
+}
+.bs-callout dt, .bs-callout dd {
+  display: inline;
+}
+
+.pullout {
+  padding: 66px 180px 70px;	
+}
+
+.pullout div.container {
+	border: 5px solid #0078BF;
+	padding: 15px;
+	font-size: 16px;
+}
+
 
 /* __________ Price Table __________ */
 .module_price_table {
@@ -2173,6 +2209,9 @@ footer .tweet_module .tweet_time a {color:#3a8bb2;}
 
 @media (max-width: 767px) {
 	#style-switcher {display:none !important;}
+	.pullout {
+	  padding: 0px;	
+	}
 	
 	.logo {text-align:left; float:left;}
 	.logo a {position:static; transform:none; -o-transform:none; -ms-transform:none; -webkit-transform:none; line-height:70px;}
@@ -2268,6 +2307,10 @@ footer .tweet_module .tweet_time a {color:#3a8bb2;}
 /* __________ INDEX PAGE __________ */
 	.jumbotron_text h2 {font-size:18px; line-height:24px;}
 	.container .jumbotron {line-height:15px; font-size:12px;}
+	
+	.pullout {
+	  padding: 0px;	
+	}	
 	
 	
 	.projects_block .row {width:250px;}
