@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.startcharlotte.com/contact.html</loc>
-    <lastmod>2014-10-17T19:00:39-04:00</lastmod>
+    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/events/sierra-maya-360-introduction.html</loc>
-    <lastmod>2014-12-08T14:35:56-05:00</lastmod>
+    <lastmod>2015-02-16T17:00:46-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.startcharlotte.com/events/startclt_kickoff.html</loc>
+    <lastmod>2015-02-16T16:40:50-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/firstpitch/apply.html</loc>
-    <lastmod>2014-10-17T19:00:39-04:00</lastmod>
+    <lastmod>2015-02-16T17:02:50-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/firstpitch/</loc>
-    <lastmod>2014-10-17T19:00:39-04:00</lastmod>
+    <lastmod>2015-02-16T17:02:43-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/</loc>
-    <lastmod>2014-11-24T17:48:59-05:00</lastmod>
+    <lastmod>2015-02-16T17:11:42-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/locations/industry-coworking.html</loc>
-    <lastmod>2014-12-08T14:34:23-05:00</lastmod>
+    <lastmod>2015-02-16T16:03:40-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.startcharlotte.com/newsletter.html</loc>
-    <lastmod>2014-10-17T19:00:40-04:00</lastmod>
+    <lastmod>2014-11-25T15:24:18-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
